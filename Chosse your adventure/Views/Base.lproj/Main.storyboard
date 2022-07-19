@@ -52,6 +52,9 @@
                                                             <backgroundConfiguration key="background" image="choice1Background"/>
                                                             <fontDescription key="titleFontDescription" type="system" weight="light" pointSize="17"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="pressChoice1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SWX-qz-ULB"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w5j-Lp-lNe">
                                                         <rect key="frame" x="0.0" y="80" width="374" height="60"/>
@@ -63,6 +66,9 @@
                                                             <backgroundConfiguration key="background" image="choice2Background"/>
                                                             <fontDescription key="titleFontDescription" type="system" weight="light" pointSize="17"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="pressChoice2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jb3-Ij-6PG"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
